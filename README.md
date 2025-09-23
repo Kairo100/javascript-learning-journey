@@ -35,6 +35,7 @@ Each project will live in its own folder with code + notes.
 
 To keep everything organized and easy to follow, this is how my repo is structured:
 
+```text
 javascript-learning-journey/
 │
 ├── 📄 README.md          # Overview (this file)
