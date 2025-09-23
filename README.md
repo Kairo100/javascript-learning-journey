@@ -15,6 +15,8 @@ Next, I’ll continue with other resources like:
 - *You Don’t Know JS (Yet)* by Kyle Simpson (free on [GitHub](https://github.com/getify/You-Dont-Know-JS))  
 - *Learning JavaScript Design Patterns* by Addy Osmani  
 
+To stay on track, I’m following my **[90-Day JavaScript Roadmap](resources/90-days-roadmap.md)**, where I’ve broken down each day into clear topics, coding lessons, and projects. ✅  
+
 ---
 
 ## 🛠️ Projects & Practice
@@ -23,9 +25,66 @@ Here I’ll add my practical exercises and projects, such as:
 - 🔹 Simple Calculator  
 - 🔹 To-Do List App  
 - 🔹 API Projects (e.g., Weather App, GitHub Finder)  
-- 🔹 Many more fullstack projects 
+- 🔹 Many more fullstack projects  
 
 Each project will live in its own folder with code + notes.
+
+---
+
+## 📂 Repository Structure
+
+To keep everything organized and easy to follow, this is how my repo is structured:
+
+javascript-learning-journey/
+│
+├── 📄 README.md # Overview (this file)
+├── 📄 .gitignore
+│
+├── 📂 notes/ # Reading notes & daily notes
+│ ├── eloquent-javascript/ # Notes from Eloquent JavaScript
+│ │ ├── chapter-01.md
+│ │ ├── chapter-02.md
+│ │ └── ...
+│ └── daily/ # Notes from daily roadmap progress
+│ ├── day-01.md
+│ ├── day-02.md
+│ └── ...
+│ ├── you-dont-know-js/ # Notes from YDKJS
+│ └── design-patterns/ # Notes from JS Patterns
+│
+├── 📂 lessons/ # Small code lessons & practice snippets
+│ ├── variables/
+│ │ └── variables.js
+│ ├── functions/
+│ │ └── functions.js
+│ └── ...
+│
+├── 📂 projects/ # Bigger hands-on projects
+│ ├── calculator/
+│ │ ├── index.html
+│ │ ├── style.css
+│ │ └── app.js
+│ ├── todo-app/
+│ │ ├── index.html
+│ │ ├── style.css
+│ │ └── app.js
+│ └── ...
+│
+├── 📂 resources/ # Helpful links, cheatsheets, and extras
+│ ├── books.md # List of books I’m following
+│ ├── 90-days-roadmap.md # My detailed 90-day JavaScript plan
+│ └── references.md # Useful articles/tutorials
+│
+└── 📂 experiments/ # Random code experiments or scratch pad
+└── try-things-out.js
+
+
+This makes it easy for anyone to follow:  
+- **notes/** → my learning notes from books & daily roadmap  
+- **lessons/** → small coding practices  
+- **projects/** → larger hands-on apps  
+- **resources/** → roadmap, books, references  
+- **experiments/** → testing ground for ideas  
 
 ---
 
