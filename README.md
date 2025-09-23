@@ -35,7 +35,6 @@ Each project will live in its own folder with code + notes.
 
 To keep everything organized and easy to follow, this is how my repo is structured:
 
-
 javascript-learning-journey/
 │
 ├── 📄 README.md          # Overview (this file)
@@ -80,7 +79,6 @@ javascript-learning-journey/
 │
 └── 📂 experiments/       # Random code experiments / scratch pad
     └── try-things-out.js
-
 
 
 This makes it easy for anyone to follow:  
