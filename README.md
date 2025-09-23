@@ -35,48 +35,52 @@ Each project will live in its own folder with code + notes.
 
 To keep everything organized and easy to follow, this is how my repo is structured:
 
+
 javascript-learning-journey/
 │
-├── 📄 README.md # Overview (this file)
+├── 📄 README.md          # Overview (this file)
 ├── 📄 .gitignore
 │
-├── 📂 notes/ # Reading notes & daily notes
-│ ├── eloquent-javascript/ # Notes from Eloquent JavaScript
-│ │ ├── chapter-01.md
-│ │ ├── chapter-02.md
-│ │ └── ...
-│ └── daily/ # Notes from daily roadmap progress
-│ ├── day-01.md
-│ ├── day-02.md
-│ └── ...
-│ ├── you-dont-know-js/ # Notes from YDKJS
-│ └── design-patterns/ # Notes from JS Patterns
+├── 📂 notes/             # Reading notes & daily roadmap notes
+│   ├── eloquent-javascript/  # Notes from Eloquent JavaScript
+│   │   ├── chapter-01.md
+│   │   ├── chapter-02.md
+│   │   └── ...
+│   ├── you-dont-know-js/     # Notes from YDKJS
+│   │   └── ...
+│   ├── design-patterns/      # Notes from JS Design Patterns
+│   │   └── ...
+│   └── daily/                 # Notes from daily roadmap progress
+│       ├── day-01.md
+│       ├── day-02.md
+│       └── ...
 │
-├── 📂 lessons/ # Small code lessons & practice snippets
-│ ├── variables/
-│ │ └── variables.js
-│ ├── functions/
-│ │ └── functions.js
-│ └── ...
+├── 📂 lessons/           # Small code lessons & practice snippets
+│   ├── variables/
+│   │   └── variables.js
+│   ├── functions/
+│   │   └── functions.js
+│   └── ...
 │
-├── 📂 projects/ # Bigger hands-on projects
-│ ├── calculator/
-│ │ ├── index.html
-│ │ ├── style.css
-│ │ └── app.js
-│ ├── todo-app/
-│ │ ├── index.html
-│ │ ├── style.css
-│ │ └── app.js
-│ └── ...
+├── 📂 projects/          # Bigger hands-on projects
+│   ├── calculator/
+│   │   ├── index.html
+│   │   ├── style.css
+│   │   └── app.js
+│   ├── todo-app/
+│   │   ├── index.html
+│   │   ├── style.css
+│   │   └── app.js
+│   └── ...
 │
-├── 📂 resources/ # Helpful links, cheatsheets, and extras
-│ ├── books.md # List of books I’m following
-│ ├── 90-days-roadmap.md # My detailed 90-day JavaScript plan
-│ └── references.md # Useful articles/tutorials
+├── 📂 resources/         # Helpful links, cheatsheets, extras
+│   ├── books.md           # List of books I’m following
+│   ├── 90-days-roadmap.md # My detailed 90-day JS plan
+│   └── references.md      # Useful articles/tutorials
 │
-└── 📂 experiments/ # Random code experiments or scratch pad
-└── try-things-out.js
+└── 📂 experiments/       # Random code experiments / scratch pad
+    └── try-things-out.js
+
 
 
 This makes it easy for anyone to follow:  
