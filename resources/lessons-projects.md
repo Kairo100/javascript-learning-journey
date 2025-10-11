@@ -103,7 +103,7 @@ Each entry has the lesson, topic, and project links to follow along.
 ## 📚 Books & Resources
 - [Eloquent JavaScript (3rd Edition, PDF)](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)  
 - [You Don’t Know JS (Yet)](https://github.com/getify/You-Dont-Know-JS)  
-- [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)  
+
 
 ---
 

@@ -149,7 +149,7 @@ Each day has clear topics, tasks, and a place to connect with my notes, lessons,
 ## 📚 Books I’m Using
 - [Eloquent JavaScript (3rd Edition, PDF)](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)  
 - [You Don’t Know JS (Yet)](https://github.com/getify/You-Dont-Know-JS)  
-- [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)  
+  
 
 ---
 

@@ -39,27 +39,27 @@ To keep everything organized and easy to follow, this is how my repo is structur
 javascript-learning-journey/
 │
 ├── 📄 README.md          # Overview (this file)
-├── 📄 .gitignore
+|
 │
 ├── 📂 notes/             # Reading notes & daily roadmap notes
 │   ├── eloquent-javascript/  # Notes from Eloquent JavaScript
 │   │   ├── chapter-01.md
 │   │   ├── chapter-02.md
 │   │   └── ...
-│   ├── you-dont-know-js/     # Notes from YDKJS
-│   │   └── ...
-│   ├── design-patterns/      # Notes from JS Design Patterns
-│   │   └── ...
+|   |
 │   └── daily/                 # Notes from daily roadmap progress
-│       ├── day-01.md
-│       ├── day-02.md
-│       └── ...
+│   |   ├── day-01.md
+│   |   ├── day-02.md
+│   | 
+|   └── js-notes-for-professionals/
+|   |
+|   └──...
 │
 ├── 📂 lessons/           # Small code lessons & practice snippets
-│   ├── variables/
-│   │   └── variables.js
-│   ├── functions/
-│   │   └── functions.js
+│   ├── js-notes-for-professionals/
+│   │   └── 01-Getting-Started-with-Javascript/
+|   |       └──01-using-console-log.js   
+│   |
 │   └── ...
 │
 ├── 📂 projects/          # Bigger hands-on projects
