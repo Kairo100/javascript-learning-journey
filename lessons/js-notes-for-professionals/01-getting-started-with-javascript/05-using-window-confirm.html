@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using window confirm </title>
+</head>
+<body>
+    <button id="btn">Click this</button>
+     <p id="demo"></p>
+    <script>
+        const btn = document.getElementById('btn')
+       btn.addEventListener('click', function(){
+
+        if(confirm("Are sure to click this button?") == true){
+         document.getElementById('demo').textContent="You Clicked 'Click this' button"
+        }
+        else{
+         document.getElementById('demo').textContent="You Cancled 'Click this' button"
+        }
+       })
+    </script>
+</body>
+</html>
