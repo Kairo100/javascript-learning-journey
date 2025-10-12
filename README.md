@@ -60,7 +60,7 @@ javascript-learning-journey/
 │   │   └── 01-Getting-Started-with-Javascript/
 |   |       └──01-using-console-log.js   
 │   |
-│   └── ...
+│   └──daily/
 │
 ├── 📂 projects/          # Bigger hands-on projects
 │   ├── calculator/
