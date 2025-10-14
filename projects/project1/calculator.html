@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <p id="num1"> The Number one is :</p>
+    <p id="num2"> The Number two is :</p>
+    <p id="operator"> The operator is </p>
+    <p id="result"> The result is :</p>
+
+    <script>
+        var num1 = prompt("Enter first number:")
+        var operator = prompt("Enter the operator (+ , - , * , /) ")
+        var num2 = prompt("Enter the second number:")
+        var result = 0
+        
+        if( operator=="+"){
+            result= num1 + num2
+        }
+        else if( operator=="-"){
+            result= num1 - num2
+        }
+        else if( operator=="*"){
+            result= num1 * num2
+        }
+        else if( operator=="/"){
+            result= num1 * num2
+        }
+       
+        
+
+    if ( result !== undefined){
+        document.getElementById('result').textContent += result
+        document.getElementById('num1').textContent += num1
+        document.getElementById('operator').textContent += operator
+        document.getElementById('num2').textContent += num2
+    }
+    else{
+            alter("Enter valid numbers and operator")
+        }
+       
+    </script>
+</body>
+</html>
